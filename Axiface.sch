@@ -217,7 +217,7 @@ U 1 1 5D139792
 P 7100 1550
 F 0 "U3" H 7350 1400 50  0000 C CNN
 F 1 "TSR_2-2490" H 7100 1826 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT" H 7100 1400 50  0001 L CIN
+F 2 "Convert_DCDC:Converter_DCDC_TRACO_TSR-2_THT" H 7100 1400 50  0001 L CIN
 F 3 "http://www.tracopower.com/products/tsr1.pdf" H 7100 1550 50  0001 C CNN
 	1    7100 1550
 	1    0    0    -1  
@@ -228,7 +228,7 @@ U 1 1 5D13A147
 P 7100 2300
 F 0 "U4" H 7350 2150 50  0000 C CNN
 F 1 "TSR_2-2490" H 7100 2576 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT" H 7100 2150 50  0001 L CIN
+F 2 "Convert_DCDC:Converter_DCDC_TRACO_TSR-2_THT" H 7100 2150 50  0001 L CIN
 F 3 "http://www.tracopower.com/products/tsr1.pdf" H 7100 2300 50  0001 C CNN
 	1    7100 2300
 	1    0    0    -1  
@@ -239,7 +239,7 @@ U 1 1 5D13A8A6
 P 7100 3050
 F 0 "U5" H 7350 2900 50  0000 C CNN
 F 1 "TSR_2-2490" H 7100 3326 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT" H 7100 2900 50  0001 L CIN
+F 2 "Convert_DCDC:Converter_DCDC_TRACO_TSR-2_THT" H 7100 2900 50  0001 L CIN
 F 3 "http://www.tracopower.com/products/tsr1.pdf" H 7100 3050 50  0001 C CNN
 	1    7100 3050
 	1    0    0    -1  
@@ -4091,4 +4091,100 @@ Wire Wire Line
 	7700 4650 7800 4650
 Wire Wire Line
 	8100 4650 8150 4650
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5D285911
+P 2325 4350
+F 0 "H1" H 2425 4399 50  0000 L CNN
+F 1 "MountingHole_Pad" V 2200 4025 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2325 4350 50  0001 C CNN
+F 3 "~" H 2325 4350 50  0001 C CNN
+	1    2325 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5D287F3F
+P 2750 4350
+F 0 "H2" H 2850 4399 50  0000 L CNN
+F 1 "MountingHole_Pad" V 2625 4025 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2750 4350 50  0001 C CNN
+F 3 "~" H 2750 4350 50  0001 C CNN
+	1    2750 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5D288C93
+P 3175 4350
+F 0 "H3" H 3275 4399 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3050 4025 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 3175 4350 50  0001 C CNN
+F 3 "~" H 3175 4350 50  0001 C CNN
+	1    3175 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5D28B772
+P 2325 4500
+F 0 "#PWR011" H 2325 4250 50  0001 C CNN
+F 1 "GND" H 2330 4327 50  0000 C CNN
+F 2 "" H 2325 4500 50  0001 C CNN
+F 3 "" H 2325 4500 50  0001 C CNN
+	1    2325 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5D28BEF1
+P 2750 4500
+F 0 "#PWR012" H 2750 4250 50  0001 C CNN
+F 1 "GND" H 2755 4327 50  0000 C CNN
+F 2 "" H 2750 4500 50  0001 C CNN
+F 3 "" H 2750 4500 50  0001 C CNN
+	1    2750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5D28C225
+P 3175 4500
+F 0 "#PWR013" H 3175 4250 50  0001 C CNN
+F 1 "GND" H 3180 4327 50  0000 C CNN
+F 2 "" H 3175 4500 50  0001 C CNN
+F 3 "" H 3175 4500 50  0001 C CNN
+	1    3175 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 4450 2325 4500
+Wire Wire Line
+	2750 4450 2750 4500
+Wire Wire Line
+	3175 4450 3175 4500
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5D2A27FC
+P 3600 4350
+F 0 "H4" H 3700 4399 50  0000 L CNN
+F 1 "MountingHole_Pad" V 3475 4025 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 3600 4350 50  0001 C CNN
+F 3 "~" H 3600 4350 50  0001 C CNN
+	1    3600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5D2A2806
+P 3600 4500
+F 0 "#PWR014" H 3600 4250 50  0001 C CNN
+F 1 "GND" H 3605 4327 50  0000 C CNN
+F 2 "" H 3600 4500 50  0001 C CNN
+F 3 "" H 3600 4500 50  0001 C CNN
+	1    3600 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4450 3600 4500
 $EndSCHEMATC
