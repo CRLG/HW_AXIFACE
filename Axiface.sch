@@ -3801,11 +3801,11 @@ Wire Wire Line
 Wire Wire Line
 	3000 3300 3000 3350
 Text Label 3050 3000 0    50   ~ 0
-RX_CPU
+TX_CPU
 Text Label 3000 3200 0    50   ~ 0
 DIRECTION
 Text Label 3050 3100 0    50   ~ 0
-TX_CPU
+RX_CPU
 Text Notes 2400 3800 0    50   ~ 0
 RX_CPU: Signal RX vu du CPU\nTX_CPU: Signal TX vu du CPU\n\n
 Wire Wire Line
