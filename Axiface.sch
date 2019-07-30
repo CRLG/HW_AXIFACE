@@ -125,7 +125,6 @@ F 0 "C1" H 3268 1646 50  0000 L CNN
 F 1 "47u" H 3268 1555 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 3188 1450 50  0001 C CNN
 F 3 "" H 3150 1600 50  0001 C CNN
-F 4 "RS4908765" H 2900 1750 50  0000 C CNN "Supplier & Ref"
 	1    3150 1600
 	1    0    0    -1  
 $EndComp
@@ -291,7 +290,6 @@ F 0 "C4" H 6518 2296 50  0000 L CNN
 F 1 "47u" H 6518 2205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 6438 2100 50  0001 C CNN
 F 3 "" H 6400 2250 50  0001 C CNN
-F 4 "RS4908765" H 6400 2250 50  0001 C CNN "Supplier & Ref"
 	1    6400 2250
 	1    0    0    -1  
 $EndComp
@@ -479,7 +477,6 @@ F 0 "C5" H 7718 1696 50  0000 L CNN
 F 1 "47u" H 7718 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 7638 1500 50  0001 C CNN
 F 3 "" H 7600 1650 50  0001 C CNN
-F 4 "RS4908765" H 7600 1650 50  0001 C CNN "Supplier & Ref"
 	1    7600 1650
 	1    0    0    -1  
 $EndComp
@@ -491,7 +488,6 @@ F 0 "C6" H 7718 2446 50  0000 L CNN
 F 1 "47u" H 7718 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 7638 2250 50  0001 C CNN
 F 3 "" H 7600 2400 50  0001 C CNN
-F 4 "RS4908765" H 7600 2400 50  0001 C CNN "Supplier & Ref"
 	1    7600 2400
 	1    0    0    -1  
 $EndComp
@@ -503,7 +499,6 @@ F 0 "C7" H 7718 3196 50  0000 L CNN
 F 1 "47u" H 7718 3105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric" H 7638 3000 50  0001 C CNN
 F 3 "" H 7600 3150 50  0001 C CNN
-F 4 "RS4908765" H 7600 3150 50  0001 C CNN "Supplier & Ref"
 	1    7600 3150
 	1    0    0    -1  
 $EndComp
@@ -3763,7 +3758,7 @@ VBAT
 Text Notes 6350 5850 0    50   ~ 0
 Condensateur 47µF\n   - Réf RS: 103-4215 (boitier 1210)\nCondensateur 100nF\n   - Réf RS : 391-214 (boitier 1206)
 Text Notes 4200 1500 0    50   ~ 0
-Ref RS: 600-9435
+Ref RS: 903-8792
 Text Notes 5350 1900 0    50   ~ 0
 Réf RS : 391-214
 Text Notes 7850 3500 0    50   ~ 0
